@@ -2,10 +2,9 @@ package io.lumine.mythic.deucemythicmobcmd;
 
 import java.util.logging.Logger;
 
-import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class Deucemythicmobcmd extends JavaPlugin implements Listener {
+public final class Deucemythicmobcmd extends JavaPlugin {
 
     @Override
     public void onEnable() {
