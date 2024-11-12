@@ -34,7 +34,12 @@ public class MythicItemGenerate implements Listener {
                         ItemMeta itemMeta = itemStack.getItemMeta();
                         itemMeta.setCustomModelData(5220003);
                         itemStack.setItemMeta(itemMeta);
-                        log.info("Greatsword of the Skeleton King's Custom Model Data changed to 5220003.");
+                        log.info("Greatsword of the Skeleton King's Custom Model Data changed to 5220003");
+                    } else if (itemName.equals("Crown of the King")) {
+                        ItemMeta itemMeta = itemStack.getItemMeta();
+                        itemMeta.setCustomModelData(5220004);
+                        itemStack.setItemMeta(itemMeta);
+                        log.info("Crown of the King's Custom Model Data changed to 5220004");
                     }
                 }
             }
