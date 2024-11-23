@@ -1,7 +1,0 @@
-name: deucemythicmobcmd
-version: '1.2.0'
-main: io.lumine.mythic.deucemythicmobcmd.Deucemythicmobcmd
-api-version: '1.21'
-depend: [MythicMobs]
-listeners:
-  - io.lumine.mythic.deucemythicmobcmd.MythicItemGenerate
